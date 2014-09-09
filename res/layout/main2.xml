@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbar"
+        android:padding="2dip" >
+
+        <EditText
+            android:id="@+id/word_input"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:layout_margin="2dip"
+            android:layout_toLeftOf="@+id/search"
+            android:background="@drawable/input"
+            android:ems="10"
+            android:paddingLeft="10dip" />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="45dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="2dip"
+            android:background="@drawable/search_selector" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/search_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/search_net"
+            android:layout_alignParentTop="true"
+            android:cacheColorHint="#7e7f98"
+            android:dividerHeight="2px"
+            android:footerDividersEnabled="true"
+            android:headerDividersEnabled="true"
+            android:scrollbars="horizontal" >
+        </ListView>
+
+        <Button
+            android:id="@+id/search_net"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/gradient_btn"
+            android:padding="8dip"
+            android:textColor="#ffffff"
+            android:textSize="20dip"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>

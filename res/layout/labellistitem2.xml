@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ListItem"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient_list2"
+    android:cacheColorHint="#000000"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/imageView1" >
+
+        <TextView
+            android:id="@+id/LabelText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            android:text="asdf"
+            android:textColor="#000000"
+            android:textSize="22dip" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/LabelText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LabelText"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:text="asdf"
+            android:textColor="#000000"
+            android:textSize="12dip" >
+        </TextView>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/arrow" />
+
+</RelativeLayout>

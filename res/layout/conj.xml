@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/topbar_green"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip" >
+
+        <Button
+            android:id="@+id/btn_con_return"
+            android:layout_width="80dip"
+            android:layout_height="35dip"
+            android:background="@drawable/back_green_selector"
+            android:text="@string/back"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/conj_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Large Text"
+            android:textColor="#ffffff"
+            android:textSize="20dip" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adViewLayout"
+        android:layout_below="@+id/title"
+        android:background="@drawable/background2"
+        android:orientation="vertical"
+        android:padding="5dip" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/conj_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:padding="5dip"
+                android:text="@string/base_exp"
+                android:textColor="#000000"
+                android:textSize="20dip" />
+
+            <TextView
+                android:id="@+id/line"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/conj_title"
+                android:background="#357EC7" />
+
+            <TextView
+                android:id="@+id/conj_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line"
+                android:padding="10dip"
+                android:text="Large Text"
+                android:textColor="#000000"
+                android:textSize="17dip" />
+
+            <TextView
+                android:id="@+id/conj_way_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/conj_text"
+                android:layout_centerHorizontal="true"
+                android:padding="5dip"
+                android:text="@string/conj_way"
+                android:textColor="#000000"
+                android:textSize="20dip" />
+
+            <TextView
+                android:id="@+id/line2"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/conj_way_title"
+                android:background="#357EC7" />
+
+            <TextView
+                android:id="@+id/conj_explain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/line2"
+                android:layout_centerInParent="true"
+                android:padding="5dip"
+                android:paddingTop="10dip"
+                android:text="Large Text"
+                android:textColor="#2B3856"
+                android:textSize="17dip" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

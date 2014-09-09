@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, JFrenchActivity!</string>
+    <string name="app_name">JFrench</string>
+    <string name="search">搜索</string>
+    <string name="back">返回</string>
+    <string name="close">关闭</string>
+    <string name="histroy">历史</string>
+    <string name="search_his">查询历史</string>
+    <string name="del_his">删除历史记录</string>
+    <string name="que_his">你确定要删除历史记录吗？</string>
+    <string name="exit">退出</string>
+    <string name="about">关于</string>
+    <string name="conjugaison">变位</string>
+    <string name="delete">清空历史</string>
+    <string name="internet">网络释意</string>
+    <string name="chooseconj">选择变位</string>
+    <string name="time">按时间排序</string>
+    <string name="frequency">按频率排序</string>
+    <string name="connecting">正在连接网络 ...</string>
+    <string name="no_connect">无法连接网络，请检查网络连接</string>
+    <string name="no_result">非常抱歉，未能找到网络释义，请输入完整单词或检查网络设置</string>
+    <string name="base_exp">基本释意</string>
+    <string name="conj_way">变位方法</string>
+    <string name="example">常见用法</string>
+    <string name="net_exp">网络释义</string>
+    <string name="info">版本号：2.3.1\n
+        				作者：蒋志鹏\n
+        				个人网站：https://jesusjzp.webege.com/\n
+        				版权说明：本软件使用的是开源法汉词典，软件技术版权归开发者所有。
+        				</string>
+    <string name="netexp">内容摘自法语助手在线翻译(www.frdic.com)</string>
+    
+</resources>
